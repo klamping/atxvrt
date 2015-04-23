@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introduction to UI Regression Testing</title>
+
+		<meta name="author" content="Kevin Lamping">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <style type="text/css">
+      h3.url {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #aaa;
+      }
+      h3.twitter {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #aaa;
+        font-size: 36px;
+      }
+    </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+      <h3 class="url">http://visual.klamp.in</h3>
+      <h3 class="twitter">@klamping</h3>
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Up and Running with Visual Regression Testing</h1>
+				</section>
+
+        <section>
+          <h1>I'm Kevin Lamping</h1>
+          <h3>Front-end Engineer at Four Kitchens.</h3>
+        </section>
+
+        <section>
+          <h3>I'm really excited about this.</h3>
+          <h3>I hate manual testing.</h3>
+        </section>
+
+        <section>
+          <h2><a href="https://docs.google.com/presentation/d/1C6TcdHSBQNcLEIH6SFmmAOLJ7cy1gvIbmCj3cyd7fxE/edit#slide=id.gad9454897_0_9">Change Blindness</a></h2>
+        </section>
+
+				<section>
+					<h2>When I Change the CSS</h2>
+					<p><img src="change-css.gif" style="vertical-align: middle;">&nbsp;&nbsp;<img src="change-css-2.gif" style="vertical-align: middle;"></p>
+				</section>
+
+        <section>
+          <h2>Not a Sustainable Test Plan</h2>
+          <p><img src="fingers.gif"></p>
+        </section>
+
+				<section>
+					<h2>The Tools</h2>
+					<ul>
+						<li>Wraith</li>
+            <li>Gemini</li>
+						<li>WebdriverCSS</li>
+					</ul>
+					<p>There are many many more (like DiffUX, DPXDT)</p>
+				</section>
+
+        <section>
+          <h2>Demo Time</h2>
+        </section>
+
+        <section>
+          <h2>Things</h2>
+          <ul>
+            <li>Static content helps</li>
+            <li>Not perfect</li>
+            <li>Take tiny steps</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>http://vrtmail.klamp.in</h2>
+        </section>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: 1200,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+			});
+
+		</script>
+
+	</body>
+</html>
